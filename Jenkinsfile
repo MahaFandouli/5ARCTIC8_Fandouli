@@ -3,11 +3,11 @@ pipeline {
   stages {
     stage('Etape 1 - initialisation') {
       steps {
-        sh 'mvn clean package'
+        sh 'cd backend && mvn clean package'
       }
     }
 
-    stage('Etape 2 - Vérification systeme') {
+    stage('Etape 2 - VÃ©rification systeme') {
       steps {
         sh 'mvn test'
       }
