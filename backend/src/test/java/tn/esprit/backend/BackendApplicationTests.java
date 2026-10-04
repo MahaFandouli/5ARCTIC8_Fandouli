@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-@Disabled("Nécessite MySQL : exécuté uniquement avec la base de données")
+@Disabled("Nécessite MySQL")
 class BackendApplicationTests {
 
     @Test
